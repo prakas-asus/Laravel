@@ -5,6 +5,7 @@
     <div class="row">
         <div class="col-6">
             <h1 class="mt-3">Daftar Mahasiswa</h1>
+            <h4 class="mt-1">Contoh penerpan fitur CRUD yang telah dibuat</h2>
             <a href="/students/create" class="btn btn-primary my-3">Tambah Data Mahasiswa</a>
             <ul class="list-group">
 

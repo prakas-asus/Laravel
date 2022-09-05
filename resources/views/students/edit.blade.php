@@ -16,21 +16,21 @@
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="nrp">Nrp</label>
-                    <input type="text" class="form-control @error('nrp') is-invalid @enderror" id="nrp" placeholder="Masukan nrp" name="nrp" value="{{ $student->nrp }}">
+                    <label for="nrp">NPM</label>
+                    <input type="text" class="form-control @error('nrp') is-invalid @enderror" id="nrp" placeholder="Masukan NPM" name="nrp" value="{{ $student->nrp }}">
                     @error('nrp')
                         <div id="validationServer02Feedback" class="invalid-feedback">{{$message}}</div>
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="email">Nrp</label>
+                    <label for="email">Email</label>
                     <input type="text" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="Masukan email" name="email" value="{{ $student->email }}">
                     @error('email')
                         <div id="validationServer02Feedback" class="invalid-feedback">{{$message}}</div>
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="jurusan">Nrp</label>
+                    <label for="jurusan">Jurusan</label>
                     <input type="text" class="form-control @error('jurusan') is-invalid @enderror" id="jurusan" placeholder="Masukan jurusan" name="jurusan" value="{{ $student->jurusan }}">
                     @error('jurusan')
                         <div id="validationServer02Feedback" class="invalid-feedback">{{$message}}</div>
